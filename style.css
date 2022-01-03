@@ -1,30 +1,42 @@
 body {
-  background-color:FFD3BA;
+  background-color:#FFD3BA;
 }
 
 ul{
-  list-style-type:none;
-  background-color:none;
-  width:100%;  
-  overflow:hidden;
-  position:fixed;
-  text-align:center;
-  left:0;
-  top:0;
-  margin:0;
+  list-style-type: none;
+  background-color: none;
+  width: 100%;  
+  overflow: hidden;
+  position: fixed;
+  text-align: center;
+  left: 0;
+  top: 0;
+  margin: 0;
 }
 li{
-  float:left;
+  float: left;
 }
 li a{
-  display:block;
-  color:black;
-  text-decoration:none;
-  padding:15px 50px;
-  border-style:none;
-  font-family:cursive, "Lucida Handwriting"
+  display: block;
+  color: black;
+  text-decoration: none;
+  padding: 15px 50px;
+  border-style: none;
+  font-family: cursive, "Lucida Handwriting"
 }
 li a:hover{
-  background-color:antiquewhite;
-  color:black;
+  background-color: antiquewhite;
+  color: black;
+}
+center {
+  display: block;
+  color: black;
+  text-decoration: none;
+  padding: 15px 50px;
+  border-style: none;
+  font-family: cursive, "Lucida Handwriting";
+  font-size: 20px
+}
+img{
+ height: 600px
 }
