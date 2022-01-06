@@ -1,3 +1,6 @@
+@import url(https://fonts.googleapis.com/css?family=Bungee);
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
 body {
   background-color:#FFD3BA;
 }
@@ -18,25 +21,22 @@ li{
 }
 li a{
   display: block;
+  font-family: 'Raleway';
   color: black;
   text-decoration: none;
   padding: 15px 50px;
   border-style: none;
-  font-family: cursive, "Lucida Handwriting"
 }
 li a:hover{
   background-color: antiquewhite;
   color: black;
 }
 center {
-  display: block;
-  color: black;
-  text-decoration: none;
-  padding: 15px 50px;
-  border-style: none;
-  font-family: cursive, "Lucida Handwriting";
-  font-size: 20px
-}
-img{
- height: 600px
+  font-size: 65px;
+  font-family: 'Bungee';
+  background: desaturate(lime, 60%);
+  color: #e75480;
+  text-shadow: 0px 15px 5px rgba(0,0,0,0.1),
+               10px 20px 5px rgba(0,0,0,0.05),
+               -10px 20px 5px rgba(0,0,0,0.05);
 }
